@@ -4,11 +4,11 @@
       {% if title %}
       <title>{{ title }} - Web Lab</title>
       {% else %}
-      <title>Web Lab Hoşgeldiniz</title>
+      <title>Web Lab Welcome</title>
       {% endif %}
     </head>
     <body>
-        <div>Web Lab: <a href="/index">Home</a> | <a href="/mylibrary">My Library</a></div>
+        <div>Web Lab: <a href="/index">Home</a> - <a href="/about">About</a></div>
         <hr>
         {% block content %}{% endblock %}
     </body>
